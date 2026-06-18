@@ -1,6 +1,6 @@
 {
   "name": "reservation-manager-design-system",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Reservation Manager Design System. Petpooja RM design guidelines enforcer — routes to the WEB or MOBILE design system per request and loads only that layer. Derived strictly from the official RM Figma source files.",
   "author": {
     "name": "Rutvij Parikh",

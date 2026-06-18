@@ -1,5 +1,5 @@
 ---
-name: design-md
+name: rm-design
 version: 0.1.0
 description: |
   Reservation Manager (RM) design guidelines enforcer. Routes to the WEB or
@@ -22,7 +22,7 @@ allowed-tools:
   - AskUserQuestion
 ---
 
-# /design-md — Reservation Manager Design Guidelines
+# /rm-design — Reservation Manager Design Guidelines
 
 Strict enforcement of the **Reservation Manager** design system as defined in
 Figma. There are **two parallel systems** — Web and Mobile. They are loaded

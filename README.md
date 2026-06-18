@@ -1,7 +1,7 @@
 # Reservation Manager Design System — Claude Code Plugin
 
 The Petpooja **Reservation Manager (RM)** design guidelines, packaged as a Claude
-Code plugin. It ships the `design-md` skill, which strictly enforces the RM design
+Code plugin. It ships the `rm-design` skill, which strictly enforces the RM design
 system as defined in Figma. The skill **routes by surface** — it loads the **web**
 or **mobile** guidelines (or both) depending on what you're designing.
 
@@ -14,7 +14,7 @@ In an interactive Claude Code terminal:
 /plugin install reservation-manager-design-system@reservation-manager-design
 ```
 
-Then restart Claude Code (or reload plugins). The `design-md` skill activates when
+Then restart Claude Code (or reload plugins). The `rm-design` skill activates when
 you ask to "design", "create UI", "build a screen", "apply the RM design system",
 or "design review".
 
@@ -28,7 +28,7 @@ or "design review".
 ## What's inside
 
 ```
-skills/design-md/
+skills/rm-design/
   SKILL.md     # router + iron rules (web vs mobile)
   web.md       # RM Web App design system (color, type, effects, 16 components)
   mobile.md    # RM Mobile App design system (shared foundations + components)
@@ -47,7 +47,7 @@ skills/design-md/
 
 ## Source
 
-Maintained from `.claude/skills/design-md/` in the Reservation Manager project.
+Maintained from `.claude/skills/rm-design/` in the Reservation Manager project.
 Figma source files:
 - Web: `figma.com/design/L7QMwEGtWjMB5ODihwnKiR`
 - Mobile: `figma.com/design/d1GJJKVRXmccqe5KIVU6Sc`
